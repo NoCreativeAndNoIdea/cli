@@ -11,7 +11,7 @@ module.exports = {
   },
   'resolve': {
     'extensions': [
-      '.ts',
+      '.ts','.js','.mjs',
     ],
     'alias': {
       '@':resolve('src'),
@@ -23,7 +23,7 @@ module.exports = {
         'test': /\.ts?$/,
         'use': [
           {
-            'loader': 'babel-loader',
+            'loader': 'ts-loader',
           },
         ],
         'exclude': /node_modules/,

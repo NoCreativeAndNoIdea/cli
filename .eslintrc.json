@@ -9,5 +9,10 @@
   },
   "extends": [
     "@no_idea/eslint-config-ts"
-  ]
+  ],
+  "rules": {
+    "no-console": ["off"],
+    "sort-imports": ["off"],
+    "dot-location": ["error","property"]
+  }
 }

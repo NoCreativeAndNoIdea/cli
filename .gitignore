@@ -2,4 +2,5 @@ node_modules
 .idea
 dist
 
-pnpm-*
+pnpm-lock.yaml
+pnpm-debug.yaml

@@ -21,7 +21,7 @@
     "dist",
     "package.json",
     "LICENSE",
-    "templates"
+    "templates/**"
   ],
   "devDependencies": {
     "@babel/core": "^7.17.9",

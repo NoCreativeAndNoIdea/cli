@@ -6,9 +6,6 @@
   "bin": {
     "idea-cli": "./dist/main.js"
   },
-  "configs": {
-    "tspath": "TS_NODE_PROJECT=\"./config/tsconfig-for-webpack-config.json\""
-  },
   "scripts": {
     "start": "node ./scripts/start.js",
     "build": "node ./scripts/build.js",
@@ -22,11 +19,15 @@
   "files": [
     "dist",
     "package.json",
-    "LICENSE"
+    "LICENSE",
+    "templates"
   ],
   "devDependencies": {
     "@babel/core": "^7.17.9",
     "@no_idea/eslint-config-ts": "^0.0.6",
+    "@types/inquirer": "^8.2.1",
+    "@types/ora": "^3.2.0",
+    "@types/shelljs": "^0.8.11",
     "dotenv": "^16.0.0",
     "eslint": "^8.13.0",
     "ts-loader": "^9.2.8",
@@ -34,6 +35,10 @@
     "webpack": "^5.72.0"
   },
   "dependencies": {
-    "commander": "^9.2.0"
+    "commander": "^9.2.0",
+    "inquirer": "^8.2.2",
+    "ora": "^6.1.0",
+    "shelljs": "^0.8.5",
+    "simple-git": "^3.7.0"
   }
 }

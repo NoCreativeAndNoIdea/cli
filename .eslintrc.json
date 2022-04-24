@@ -13,6 +13,7 @@
   "rules": {
     "no-console": ["off"],
     "sort-imports": ["off"],
-    "dot-location": ["error","property"]
+    "dot-location": ["error","property"],
+    "max-len": ["error",100]
   }
 }

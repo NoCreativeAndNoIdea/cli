@@ -26,15 +26,20 @@ const templateList = [
     'description': '初始化git flow',
   },
   {
-    'name': 'Vue',
-    'value': 'vue',
-    'description': 'Vite+Typescript+Vue3全家桶项目模板',
+    'name': 'Monorepo',
+    'value': 'monorepo',
+    'description': ' monorepo 模板',
   },
-  {
-    'name': 'React',
-    'value': 'react',
-    'description': 'Vite+Typescript+React全家桶项目模板',
-  },
+  // {
+  //   'name': 'Vue',
+  //   'value': 'vue',
+  //   'description': 'Vite+Typescript+Vue3全家桶项目模板',
+  // },
+  // {
+  //   'name': 'React',
+  //   'value': 'react',
+  //   'description': 'Vite+Typescript+React全家桶项目模板',
+  // },
 ];
 
 const askForInputProjectName = async (options: AskInputOptions): Promise<string> => {

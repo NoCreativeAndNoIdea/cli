@@ -3,7 +3,6 @@ const resolve = dir => path.resolve(__dirname,'../',dir);
 
 module.exports = {
   'entry': './src/app.ts',
-  'mode': 'development',
   'target': 'node',
   'output': {
     'filename': 'main.js',

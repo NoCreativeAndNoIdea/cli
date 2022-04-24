@@ -1,12 +1,20 @@
 {
-  "name": "no_idea",
+  "name": "@no_idea/use-monorepo",
   "version": "0.0.1",
   "author": "jixiaoqi",
   "license": "MIT",
+  "private": true,
   "scripts": {
-
+    "start": "",
+    "build": "",
+    "lint": "eslint --fix"
   },
   "devDependencies": {
-
-  }
+    "@no_idea/eslint-config-ts": "^0.0.7",
+    "eslint": "^8.14.0",
+    "typescript": "^4.6.3"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "description": "no idea utils monorepo"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@no_idea/cli",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "no idea cli tool",
   "private": false,
   "bin": {
